@@ -24,7 +24,7 @@ function sleep(milliseconds) {
 
 function getUrl(method, params) {
     params = params || {};					
-    params['access_token'] = '7fa8f74da48bcf7991c7f09d1e52c98b5e479bcdfdc84cea292890e4aedecbdc5e2863780e69778949fd2';
+    params['access_token'] = '###';
     return 'https://api.vk.com/method/' + method + '?' + $.param(params) + '&v=5.131';
 }
 
